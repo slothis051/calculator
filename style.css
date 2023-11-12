@@ -1,0 +1,45 @@
+#mainDisplay {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#valueDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 5rem;
+}
+
+#inputValue {
+    font-size: 3rem;
+    color: grey;
+}
+
+#operationIconDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.operationIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border: 1px solid;
+    flex: 0 0 50px;
+    width: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: xx-large;
+    width: 100px;
+    height: 100px;
+}
